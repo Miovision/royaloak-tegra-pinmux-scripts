@@ -108,6 +108,12 @@ supported_boards = {
         'rsvd_base': 0,
         'soc': 'tegra124',
     },
+    'royaloak-ctm': {
+        # Royal Oak CTM Board Pinmux Configuration
+        'filename': 'csv/royaloak-ctm.csv',
+        'rsvd_base': 0,
+        'soc': 'tegra210',
+    },
 }
 
 if not args.board in supported_boards:
