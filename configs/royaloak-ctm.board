@@ -14,7 +14,7 @@ pins = (
     ('spi2_mosi_pb4',        'spi2',     None,      'down', False, False, False, False),
     ('spi2_miso_pb5',        'spi2',     None,      'none', False, True,  False, False),
     ('spi2_sck_pb6',         'spi2',     None,      'down', False, False, False, False),
-    ('spi2_cs0_pb7',         None,       'out1',    'down', False, False, False, False),
+    ('spi2_cs0_pb7',         None,       'out1',    'none', False, False, False, False),
     ('spi2_cs1_pdd0',        'rsvd1',    None,      'down', True,  False, False, False),
     ('dmic1_clk_pe0',        None,       'in',      'none', False, True,  False, False),
     ('dmic1_dat_pe1',        None,       'out1',    'none', False, False, False, False),
@@ -68,7 +68,7 @@ pins = (
     ('button_vol_down_px7',  'rsvd0',    None,      'down', True,  False, False, False),
     ('button_slide_sw_py0',  'rsvd0',    None,      'down', True,  False, False, False),
     ('button_home_py1',      None,       'in',      'up',   False, True,  False, False),
-    ('lcd_te_py2',           None,       'out1',    'down', False, False, False, False),
+    ('lcd_te_py2',           None,       'out1',    'none', False, False, False, False),
     ('lcd_bl_pwm_pv0',       None,       'in',      'none', False, True,  False, False),
     ('lcd_bl_en_pv1',        None,       'out1',    'none', False, False, False, False),
     ('lcd_rst_pv2',          'rsvd0',    None,      'down', True,  False, False, False),
@@ -162,7 +162,7 @@ pins = (
     ('usb_vbus_en1_pcc5',    'rsvd1',    None,      'down', True,  False, False, False),
     ('dp_hpd0_pcc6',         None,       'out0',    'none', False, False, False, False),
     ('hdmi_int_dp_hpd_pcc1', None,       'in',      'none', False, True,  False, False),
-    ('hdmi_cec_pcc0',        None,       'out0',    'none', False, False, False, False),
+    ('hdmi_cec_pcc0',        None,       'in',      'up',   False, True,  False, False),
 )
 
 drive_groups = (
